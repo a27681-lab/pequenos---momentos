@@ -194,7 +194,7 @@ footer {
     }
     
 /*para mostrar a cara do cão, porque sem isto ficava a ver-se somente o corpo do cão*/
-       .cartao img[src="imagens/cao_castanho.jpg"] { 
+       .imagem-cão {
         object-position: center 32%;
     }
 
