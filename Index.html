@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viver com leveza</title>
+    <link rel="stylesheet" href="css/style.css">  
+</head>
+
+<body>
+    <header>
+        <h1>Viver com Leveza</h1>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#inspirações">Inspirações</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+         <section id="inicio" class="destaque">
+            <h2>Pequenas escolhas, grandes mudanças</h2>
+
+            <p>
+                Mais natureza, mais tempo para o que importa,
+                mais vida real.
+            </p>
+
+            <a href="#sobre" class="botao">Descobrir mais</a>
+        </section>
+
+        <section id="sobre" class="sobre">
+            <h2>Sobre mim</h2>
+
+            <p>
+                Gosto de natureza, animais e de descobrir
+                formas simples de viver melhor.
+            </p>
+
+            <p>
+                Acredito que podemos encontrar felicidade
+                nas pequenas coisas do dia a dia, como um
+                passeio ao ar livre, um livro ou um momento
+                de tranquilidade.
+            </p>
+
+            <img
+                src="imagens/nascer_do_sol.jpg"
+                alt="Paisagem natural ao nascer do sol">
+        </section>
+
+        <section id="inspirações" class="inspirações">
+            <h2>O que me inspira</h2>
+
+                 <div class="cartoes">
+
+                    <article class="cartao">
+                        <a href="https://www.icnf.pt/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            title="Visitar o site do ICNF">
+                            <img
+                                src="imagens/floresta_verde.jpg"
+                                alt="Floresta verde">
+                        </a>
+
+                        <h3>Natureza</h3>
+
+                        <p>
+                        Explorar, respirar e descobrir
+                        a beleza do mundo natural.
+                        </p>
+                    </article>
+
+                    <article class="cartao">
+                        
+                        <a href="https://www.uniaozoofila.org/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            title="Visitar o site da União Zoófila">
+                            <img
+                                src="imagens/cao_castanho.jpg"
+                                alt="Cão castanho">
+                        </a>
+
+                        <h3>Animais</h3>
+
+                        <p>
+                        Aprender com os animais e
+                        desfrutar da sua companhia.
+                        </p>
+                    </article>
+
+                    <article class="cartao">
+                        <a href="https://www.nationalgeographic.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            title="Visitar o site da National Geographic">
+                            <img
+                                src="imagens/paisagem_natural.jpg"
+                                alt="Paisagem natural">
+                        </a>
+
+                        <h3>Vida simples</h3>
+
+                        <p>
+                        Menos pressa, mais tempo
+                        para aquilo que importa.
+                        </p>
+                    </article>
+
+                </div>
+        </section>
+        
+        <section id="galeria" class="galeria">
+            <h2>Galeria de imagens</h2>
+
+            <p>
+                Alguns lugares e momentos que me inspiram.
+            </p>
+
+            <img
+                src="imagens/caminho_numa_floresta.jpg"
+                alt="Caminho numa floresta">
+
+            <img
+                src="imagens/montanhas_e_lago.jpg"
+                alt="Montanhas e lago">
+
+            <img
+                src="imagens/flores_coloridas.jpg"
+                alt="Flores coloridas">
+
+            <img
+                src="imagens/cafe_numa_mesa.jpg"
+                alt="Café numa mesa">
+        </section>
+        
+         <section id="contacto" class="contacto">
+            <h2>Contacto</h2>
+
+            <p>
+                Tens alguma ideia para partilhar?
+                Podes deixar uma mensagem.
+            </p>
+
+            <form>
+                <label for="nome">Nome:</label>
+                <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    required>
+
+                <label for="email">Email:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required>
+
+                <label for="assunto">Assunto:</label>
+                <select id="assunto" name="assunto">
+                    <option value="natureza">Natureza</option>
+                    <option value="animais">Animais</option>
+                    <option value="vida-simples">Vida simples</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea
+                    id="mensagem"
+                    name="mensagem"
+                    rows="5"
+                    required></textarea>
+
+                <button type="submit">Enviar mensagem</button>
+            </form>
+        </section>
+
+    </main>
+
+    
+    <footer>
+        <p>Viver com Leveza | 2026</p>
+        <p>Encontrar beleza nas pequenas coisas.</p>
+    </footer>
+
+</body>
+</html>
